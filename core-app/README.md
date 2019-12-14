@@ -5,9 +5,6 @@
 ## Build Setup
 
 ```bash
-
-$ cd core-app
-
 # install dependencies
 $ yarn install
 
@@ -16,6 +13,7 @@ $ yarn dev
 
 # build for production and launch server
 $ yarn build
+
 $ yarn start
 
 # generate static project

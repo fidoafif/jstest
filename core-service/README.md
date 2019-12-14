@@ -34,8 +34,11 @@
 
 
 # install server
-$ cd core-service
-$ yarn
+$ yarn install
+
+# start server
+# serve with hot reload at localhost:3003
+# swagger at localhost:3003/swagger
 $ yarn start
 
 # unit testing
