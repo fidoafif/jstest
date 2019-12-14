@@ -6,16 +6,7 @@
 
 ```bash
 
-# install server
-$ cd core-service
-$ yarn
-$ yarn start
-
-# unit testing
-$ yarn e2e
-
-# migration
-$ yarn migration:generate InitDB && yarn barrelsby --delete -d ./src/migrations
+$ cd core-app
 
 # install dependencies
 $ yarn install
