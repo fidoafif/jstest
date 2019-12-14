@@ -4,7 +4,19 @@
 
 ## Build Setup
 
-``` bash
+```bash
+
+# install server
+$ cd core-service
+$ yarn
+$ yarn start
+
+# unit testing
+$ yarn e2e
+
+# migration
+$ yarn migration:generate InitDB && yarn barrelsby --delete -d ./src/migrations
+
 # install dependencies
 $ yarn install
 
